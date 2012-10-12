@@ -9,9 +9,7 @@
  * @include jquery-json v2.3 <http://code.google.com/p/jquery-json/>
  *          jquery-cookie <https://github.com/carhartl/jquery-cookie/>
  * @author intergamesjp[at]google[dot]com, <http://intergames.jp/>
- * @copyright Copyright (C) 2012 intergames.jp, All right reserved
- *            If you want to use this `rpgmaterial.js`, please contact me
- *            You can use `rpgmaterial.js` as free in most cases
+ * @licence MIT License
  * @charset utf-8
  */
 //
