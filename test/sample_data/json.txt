@@ -1,0 +1,1 @@
+{"str":"string","int":1,"bool":true,"null":null,"array":[1,2,3,4,5],"obj":{"x":"X","y":"Y"}}

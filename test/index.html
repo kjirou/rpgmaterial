@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<html><!--あいう-->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<title>rpgmaterial.js - Test</title>
+<script type="text/javascript" src="../dependency/jquery-1.7.2.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../dependency/jsdeferred.js" charset="utf-8"></script>
+<script type="text/javascript" src="../dependency/threadmanager.js " charset="utf-8"></script>
+<script type="text/javascript" src="../rpgmaterial.js" charset="utf-8"></script>
+<script type="text/javascript" src="./fatmantools.js" charset="utf-8"></script>
+<script type="text/javascript" src="./test.js" charset="utf-8"></script>
+<style type="text/css">
+body {
+    background-color: #FFF;
+}
+h3.test_title {
+    margin: 0;
+    padding: 0;
+}
+div.category {
+    position: relative;
+    margin-bottom: 5px;
+    border: 1px solid #CCC;
+}
+
+#animations {
+    height: 100px;
+}
+#blocks {
+    height: 120px;
+}
+#boards {
+    height: 35px;
+}
+#chip_animations {
+    height: 100px;
+}
+#chips {
+    height: 100px;
+    z-index: 120;
+}
+#dialogs {
+    height: 20px;
+    z-index: 110;
+}
+#functions {
+    height: 100px;
+}
+#windows {
+    height: 20px;
+    z-index: 100;
+}
+
+#button_set_board {
+    height: 20px;
+    z-index: 50;
+}
+#image_book_block {
+    height: 20px;
+    z-index: 20;
+}
+#image_text_block {
+    height: 20px;
+}
+#log_viewer_block {
+    height: 20px;
+    z-index: 10;
+}
+#message_block {
+    height: 100px;
+}
+#parameter_display_block {
+    height: 25px;
+}
+#request {
+    height: 20px;
+}
+#rich_text {
+    height: 100px;
+}
+</style>
+</head>
+<body>
+
+<h3 class="test_title">$animations</h3>
+<div id="animations" class="category"></div>
+
+<h3 class="test_title">$blocks</h3>
+<div id="blocks" class="category"></div>
+
+<h3 class="test_title">$boards, $mapEditors</h3>
+<div id="boards" class="category"></div>
+
+<h3 class="test_title">$chips</h3>
+<div id="chips" class="category"></div>
+
+<h3 class="test_title">$chipAnimations</h3>
+<div id="chip_animations" class="category"></div>
+
+<h3 class="test_title">$dialogs</h3>
+<div id="dialogs" class="category"></div>
+
+<h3 class="test_title">$functions</h3>
+<div id="functions" class="category"></div>
+
+<h3 class="test_title">$windows</h3>
+<div id="windows" class="category"></div>
+
+<h3 class="test_title">ButtonSetBoard</h3>
+<div id="button_set_board" class="category"></div>
+
+<h3 class="test_title">ImageBookBlock</h3>
+<div id="image_book_block" class="category"></div>
+
+<h3 class="test_title">ImageTextBlock</h3>
+<div id="image_text_block" class="category"></div>
+
+<h3 class="test_title">LogViewerBlock</h3>
+<div id="log_viewer_block" class="category"></div>
+
+<h3 class="test_title">MessageBlock</h3>
+<div id="message_block" class="category"></div>
+
+<h3 class="test_title">ParameterDisplayBlock</h3>
+<div id="parameter_display_block" class="category"></div>
+
+<h3 class="test_title">Request</h3>
+<div id="request" class="category"></div>
+
+<h3 class="test_title">RichText/Not3d</h3>
+<div id="rich_text" class="category"></div>
+
+<h3>画像素材提供元</h3>
+<div>
+    <ul>
+        <li><a href="http://www.tekepon.net/fsm/" target="_blank">First Seed Material(マップチップ)</a></li>
+        <li><a href="http://momomohouse.jugem.jp/" target="_blank">あひる小屋(顔グラフィック)</a></li>
+        <li><a href="http://creava.cocolog-nifty.com/blog/" target="_blank">Creava's Nest(マップチップ/ウィンドウスキン)</a></li>
+    </ul>
+    <div>素材の利用規約上、ライブラリ内に含めることが難しいので<br />
+        各環境で実行する場合はそれぞれ提供元サイトからDLをお願いします<br />
+        <a href="http://kjirou.net/main/public/js/lib/linkcollection/materials/" target="_blank">お好みの素材を探すのも楽しいですよ！</a></div>
+</div>
+
+</body>
+</html>
