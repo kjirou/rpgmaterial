@@ -8,8 +8,8 @@ This is a JavaScript library for making games like a JRPG
 
 
 ### デモ / Demo
-http://kjirou.net/rpgmaterial/demo/
+http://pub.kjirou.net/rpgmaterial/demo/
 
 
 ### サンプル＆テスト / Samples & Tests
-http://kjirou.net/rpgmaterial/test/
+http://pub.kjirou.net/rpgmaterial/test/

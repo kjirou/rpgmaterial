@@ -13,7 +13,7 @@ var $f = RPGMaterial.$functions;
 // テスト用の画像設定
 var img = cls.ImageIndexer.factory();
 //- githubアップ時に内部に他者様素材を含まない為の対処
-var imgUrl = 'http://kjirou.net/rpgmaterial_sample_images';
+var imgUrl = 'http://pub.kjirou.net/materials/rpgmaterial';
 //- マップ
 img.upload('a2', imgUrl + '/TileA2.png', [512, 384], [64, 96]);
 img.upload('icon', imgUrl + '/usui-IconSet-min.png', [384, 528], [24, 24]);
