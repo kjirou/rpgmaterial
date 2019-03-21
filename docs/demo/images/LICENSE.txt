@@ -1,10 +1,13 @@
 # デモに使用している画像のライセンス
 
+以下の素材については、デモ用にお借りしているだけなので当ライブラリには含まれません。
+
+
 ## REFMAP (故 FSM サイト) 素材
+### 対象素材
 
 - TileA2.png
 - TileB.png
-- window_skin-1.png
 
 ### Author
 
@@ -65,9 +68,17 @@ http://www.tekepon.net/fsm/modules/refmap/index.php?mode=rules
 
 
 ## あひる小屋 素材
+### 対象素材
 
-- サイトトップ http://momomohouse.jugem.jp/
-- 利用規約 http://momomohouse.jugem.jp/?eid=23
+- girl.png
+
+### Author
+
+http://momomohouse.jugem.jp/
+
+### License
+
+利用規約ページ http://momomohouse.jugem.jp/?eid=23
 
 以下、2019-03-21 時点での利用規約の全文のコピー。
 
@@ -151,4 +162,28 @@ Materials on this site are NOT allowed to be used on other
 websites without permission. 
 At least, I hope you E-mail me in Japanese or easy English before you post it. 
 I can't write back in English well.
+```
+
+
+## Creava's Nest 素材
+### 対象素材
+
+- window_skin-1.png
+
+### Author
+
+http://creava.cocolog-nifty.com/blog/
+
+### License
+
+以下のパッケージに含まれていた。現在は確認できない。
+
+http://creava.cocolog-nifty.com/blog/2009/04/creava-map-proj.html
+
+以下、利用規約らしきところを 2019-03-21 にコピー。
+
+```
+製作：P.A.E : Creava
+ご使用の際は、ReadMe辺りにでも書いていただけるとありがたいです。
+素材の二次配布はご遠慮下さい。
 ```

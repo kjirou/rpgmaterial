@@ -1,17 +1,5 @@
-rpgmaterial
-===========
+# rpgmaterial
 
-JRPG的なゲームやコンテンツを作成するための  
-JavaScriptライブラリです
+若気の至りで作成したつもりになった、JRPG的なゲームやコンテンツを作成するための JavaScriptライブラリ。
 
-This is a JavaScript library for making games like a JRPG
-
-外部素材を手動で組み込む必要があるので、git clone だけでは動きません！
-
-
-### デモ / Demo
-http://pub.kjirou.net/rpgmaterial/demo/
-
-
-### サンプル＆テスト / Samples & Tests
-http://pub.kjirou.net/rpgmaterial/test/
+Demo: https://kjirou.github.io/rpgmaterial/demo/
