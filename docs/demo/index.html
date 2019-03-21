@@ -48,8 +48,7 @@ h1 {
 
 <!-- マップエディタ生成 -->
 <script type="text/javascript" charset="utf-8">
-// githubアップ時に内部に他者様素材を含まない為の対処
-var imgUrl = 'http://pub.kjirou.net/materials/rpgmaterial';
+var imgUrl = './images';
 
 
 // 画像管理オブジェクト
@@ -59,7 +58,6 @@ img.clip('signboard', imgUrl + '/TileB.png', [512, 512], [160, 32], [32, 32]);
 img.clip('gray_rock', imgUrl + '/TileB.png', [512, 512], [288, 128], [32, 32]);
 img.clip('wooden_grave', imgUrl + '/TileB.png', [512, 512], [288, 192], [32, 32]);
 img.clip('stump', imgUrl + '/TileB.png', [512, 512], [160, 96], [32, 32]);
-img.upload('face_boy', imgUrl + '/boy.png', [384, 192], [96, 96]);
 img.upload('face_girl', imgUrl + '/girl.png', [384, 192], [96, 96]);
 
 // 盤オブジェクト
@@ -111,22 +109,6 @@ editor.drawAndShow();
 <script type="text/javascript" charset="utf-8">
 $('#explanation_button').bind('mousedown', function(){
 
-    // 男の子の顔グラフィック用チップオブジェクト
-    var boy = RPGMaterial.$chips.PlainChip.factory([96, 96], null, img.get('face_boy', 1));
-    boy.addVariation('none', img.get('face_boy', 1));
-    boy.addVariation('smiling', img.get('face_boy', 5));
-    boy.addVariation('laughing', img.get('face_boy', 5));
-    boy.addVariation('annoyed', img.get('face_boy', 2));
-    boy.addVariation('angry', img.get('face_boy', 8));
-    boy.addVariation('sad', img.get('face_boy', 6));
-    boy.addVariation('crying', img.get('face_boy', 7));
-    boy.addVariation('questioning', img.get('face_boy', 3));
-    boy.addVariation('surprised', img.get('face_boy', 6));
-    boy.addVariation('narvous', img.get('face_boy', 6));
-    boy.addVariation('fearing', img.get('face_boy', 6));
-    boy.addVariation('awaking', img.get('face_boy', 3));
-    boy.addVariation('proud', img.get('face_boy', 4));
-    boy.addVariation('appalling', img.get('face_boy', 4));
     // 女の子の顔グラフィックのチップオブジェクト
     var girl = RPGMaterial.$chips.PlainChip.factory([96, 96], null, img.get('face_girl', 4));
     girl.addVariation('none', img.get('face_girl', 4));
@@ -156,7 +138,6 @@ $('#explanation_button').bind('mousedown', function(){
     talkWindow.setZIndex(1); // マップエディタの上に来るようにz-index設定
     talkWindow.style({ color: '#FFF' }); // 文字色
     // 顔グラとして、先の男女を登録
-    talkWindow.entryActor('boy', boy);
     talkWindow.entryActor('girl', girl);
 
     // 会話作成, ('<顔グラキー>', '<表情キー>', '<会話>')
